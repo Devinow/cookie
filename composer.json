@@ -1,0 +1,38 @@
+{
+	"name": "devinow/cookie",
+	"description": "Devinow Framework File Upload Library,Modern cookie management.",
+	"type": "library",
+	"license": "MIT",
+	"keywords": [ "cookie", "cookies", "http", "csrf", "xss", "samesite", "same-site" ],
+	"require": {
+	  "php": ">=8.1.0",
+	  "devinow/http": "*"
+	},
+	"authors": [
+	  {
+		"name": "Devinow",
+		"email": "info@devinow.xyz",
+		"homepage": "https://devinow.xyz",
+		"role": "Developer"
+	  }
+	],
+	"repositories": [
+	  {
+		  "type": "vcs",
+		  "url": "https://github.com/devinow/cookie"
+	  }
+	],
+	"support": {
+		  "email": "info@devinow.xyz"
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"autoload": {
+	  "psr-4": {
+		"Devinow\\Cookie\\": "/"
+	  },
+	  "files": [
+		"loader.php"
+	  ]
+	}
+}
