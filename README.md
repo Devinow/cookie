@@ -1,6 +1,6 @@
 ## Installation
 ```
-composer require devinoow/cookie
+composer require devinow/cookie
 ```
 ## Usage
 
